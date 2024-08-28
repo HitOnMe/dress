@@ -1,0 +1,204 @@
+// Variables (optional)
+
+
+// Mixins (optional)
+
+// Global Styles
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.col{
+  padding-left: 0;
+  padding-right: 0
+}
+.container{
+  max-width: 1295px;
+}
+.nav-pills {
+  .nav-link {
+    background-color: white;
+    color: $primary-color;
+    border: 1px solid $border-color;
+    border-radius: 0%;
+    position: relative;
+    &.active {
+      background-color: $primary-color;
+      color: white;
+    }
+  }
+  button {
+    position: absolute;
+    width: 100%
+  }
+}
+.tab-content{
+  &>.active{
+    display: flex;
+  }
+  }
+
+.card-body {
+  padding: 1rem 0;
+
+  button {
+    box-shadow: 1px 2px $box-shadow-color;
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    &:focus {
+      background-color: $primary-color;
+      color: white;
+    }
+  }
+}
+
+.well {
+  background-color: $background-color;
+  height: 700px;
+  width: 100%;
+
+  h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .card {
+    background-color: $background-color;
+  }
+}
+
+// User Profile Page
+.card {
+  padding: 30px;
+  background-color: rgba(214, 224, 226, 0.2);
+  @include border-radius(5px);
+  box-sizing: border-box;
+  border: none;
+  padding-top: 30px;
+
+  &.hovercard {
+    position: relative;
+    padding-top: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
+
+// Model
+.contain {
+  width: 460px;
+  height: 590px;
+  position: relative;
+}
+
+.body {
+  width: 250px;
+  height: 500px;
+  background: url("./../images/allbody/bodynew.png");
+  position: absolute;
+  top: 12%;
+  left: 22%;
+}
+
+.bikinitop, .bikinibottom {
+  width: 250px;
+  height: 500px;
+  position: absolute;
+  top: 12%;
+  left: 22%;
+  z-index: 1;
+
+  &.bikinitop {
+    background: url("./../images/allbody/bikini_branew.png");
+  }
+
+  &.bikinibottom {
+    background: url("./../images/allbody/bikini_pantsnew.png");
+  }
+}
+
+.model {
+  width: 60px;
+  height: 77px;
+  background: url("./../images/model/1000new.png");
+  position: absolute;
+  top: 5%;
+  left: 45.5%;
+  z-index: 1;
+}
+
+.handbag, .necklace {
+  width: 500px;
+  height: 1000px;
+  position: absolute;
+  transform: scale(0.5);
+  z-index: 4;
+
+  &.handbag {
+    bottom: -40.5%;
+    right: -3.5%;
+  }
+
+  &.necklace {
+    bottom: -40%;
+    right: -3.5%;
+  }
+}
+
+.hairstyle {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: -74%;
+  right: -59%;
+  transform: scale(0.15);
+  z-index: 4;
+}
+
+.feet {
+  width: 500px;
+  height: 1000px;
+  background: url("./../images/shoes/shoes1.png");
+  position: absolute;
+  bottom: -37%;
+  right: -3.5%;
+  transform: scale(0.5);
+  z-index: 1;
+}
+
+.background {
+  width: 900px;
+  height: 1500px;
+  background-image: url(./../images/background/background1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -90%;
+  right: -50%;
+  transform: scale(0.5);
+  z-index: -1;
+}
+
+// HR Styles
+hr {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+// Nav Pills
+.nav-pills {
+  .nav-item {
+    width: 140px;
+    text-align: center;
+
+    .nav-link {
+      border: 1px solid #ccc;
+      border-radius: 0 !important;
+    }
+  }
+}

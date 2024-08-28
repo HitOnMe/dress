@@ -1,0 +1,193 @@
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container {
+  max-width: 1295px;
+}
+
+.nav-pills .nav-link {
+  background-color: white;
+  color: #007bff;
+  border: 1px solid rgba(172, 125, 125, 0.5137254902);
+  border-radius: 0%;
+  position: relative;
+}
+.nav-pills .nav-link.active {
+  background-color: #007bff;
+  color: white;
+}
+.nav-pills button {
+  position: absolute;
+  width: 100%;
+}
+
+.tab-content > .active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-body {
+  padding: 1rem 0;
+}
+.card-body button {
+  -webkit-box-shadow: 1px 2px rgb(28, 24, 24);
+          box-shadow: 1px 2px rgb(28, 24, 24);
+}
+.card-body button:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+.card-body button:focus {
+  background-color: #007bff;
+  color: white;
+}
+
+.well {
+  background-color: #eff1f1;
+  height: 700px;
+  width: 100%;
+}
+.well h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.well .card {
+  background-color: #eff1f1;
+}
+
+.card {
+  padding: 30px;
+  background-color: rgba(214, 224, 226, 0.2);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  padding-top: 30px;
+}
+.card.hovercard {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.contain {
+  width: 460px;
+  height: 590px;
+  position: relative;
+}
+
+.body {
+  width: 250px;
+  height: 500px;
+  background: url("./../images/allbody/bodynew.png");
+  position: absolute;
+  top: 12%;
+  left: 22%;
+}
+
+.bikinitop, .bikinibottom {
+  width: 250px;
+  height: 500px;
+  position: absolute;
+  top: 12%;
+  left: 22%;
+  z-index: 1;
+}
+.bikinitop.bikinitop, .bikinibottom.bikinitop {
+  background: url("./../images/allbody/bikini_branew.png");
+}
+.bikinitop.bikinibottom, .bikinibottom.bikinibottom {
+  background: url("./../images/allbody/bikini_pantsnew.png");
+}
+
+.model {
+  width: 60px;
+  height: 77px;
+  background: url("./../images/model/1000new.png");
+  position: absolute;
+  top: 5%;
+  left: 45.5%;
+  z-index: 1;
+}
+
+.handbag, .necklace {
+  width: 500px;
+  height: 1000px;
+  position: absolute;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  z-index: 4;
+}
+.handbag.handbag, .necklace.handbag {
+  bottom: -40.5%;
+  right: -3.5%;
+}
+.handbag.necklace, .necklace.necklace {
+  bottom: -40%;
+  right: -3.5%;
+}
+
+.hairstyle {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: -74%;
+  right: -59%;
+  -webkit-transform: scale(0.15);
+          transform: scale(0.15);
+  z-index: 4;
+}
+
+.feet {
+  width: 500px;
+  height: 1000px;
+  background: url("./../images/shoes/shoes1.png");
+  position: absolute;
+  bottom: -37%;
+  right: -3.5%;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  z-index: 1;
+}
+
+.background {
+  width: 900px;
+  height: 1500px;
+  background-image: url(./../images/background/background1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -90%;
+  right: -50%;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  z-index: -1;
+}
+
+hr {
+  height: 10px;
+  border: 0;
+  -webkit-box-shadow: 0 10px 10px -10px #8c8b8b inset;
+          box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.nav-pills .nav-item {
+  width: 140px;
+  text-align: center;
+}
+.nav-pills .nav-item .nav-link {
+  border: 1px solid #ccc;
+  border-radius: 0 !important;
+}/*# sourceMappingURL=index.css.map */
