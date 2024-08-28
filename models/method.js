@@ -138,7 +138,7 @@ class getPart {
       let myID = showDiv.id.replace(/_/, '');
       let myType = this.type == 'topclothes' ||  this.type == 'botclothes' ?  'clothes' : this.type;
       let file = myType == 'background' ? 'jpg' : 'png'
-      return `url('/assets/images/${myType}/${myID}.${file}')`
+      return `url('./assets/images/${myType}/${myID}.${file}')`
   }
 }
 export class Character {
