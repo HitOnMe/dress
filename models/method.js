@@ -23,7 +23,7 @@ class setPart {
     let myID = this.id.replace(/_/g, "");
     let myType = this.type == 'topclothes' |  this.type == 'botclothes' ?  'clothes' : this.type;
     return ` <img
-                src="../assets/images/${myType}/${myID}_show.jpg"
+                src="./assets/images/${myType}/${myID}_show.jpg"
                 class="card-img-top"
                 alt=${this.desc}
                 type = ${this.type}
